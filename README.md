@@ -1,68 +1,13 @@
 
+
+CS:APP Malloc Lab
+Handout files for students
+
+Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
+May not be used, modified, or copied without permission.
+
 # Score
-## Naive : 66
-## Implicit : 94
-## Explicit : 99
-
-#####################################################################
-# CS:APP Malloc Lab
-# Handout files for students
-#
-# Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
-# May not be used, modified, or copied without permission.
-#
-######################################################################
-
-***********
-Main Files:
-***********
-
-mm.c
-	Your solution malloc package. This is the file that you
-	will be handing in, and is the only file you should modify.
-
-mm-orig.c
-	Copy of original mm.c file
-
-mm-naive.c
-        A solution that implements all the functions correctly, but
-        quickly runs out of memory because it doesn't actually implement
-        free().  Feel free to copy code out of here.
-
-mdriver.c	
-	The malloc driver that tests your mm-student.c file
-
-traces/{malloc,malloc-free,corners}.rep
-	Small trace files to test your solutions.
-
-mdriver
-        Once you've run make, run mdriver to test your solution.
-        Early on, you probably want to run ./mdriver -VV -D
-        to be Very Verbose and Debug harder.  But this is very slow.
-
-**********************************
-Other support files for the driver
-**********************************
-
-config.h	Configures the malloc lab driver
-fsecs.{c,h}	Wrapper function for the different timer packages
-clock.{c,h}	Routines for accessing the Pentium and Alpha cycle counters
-fcyc.{c,h}	Timer functions based on cycle counters
-ftimer.{c,h}	Timer functions based on interval timers and gettimeofday()
-memlib.{c,h}	Models the heap and sbrk function
-
-*******************************
-Building and running the driver
-*******************************
-To build the driver, type "make" to the shell.
-
-To run the driver on a tiny test trace:
-
-	unix> ./mdriver -V -f traces/malloc.rep
-
-The -V option prints out helpful tracing and summary information.
-
-To get a list of the driver flags:
-
-	unix> ./mdriver -h
-
+### Naive : 66
+### Implicit : 94
+### Explicit : 99
+![스크린샷 2023-12-15 오전 4 04 40](https://github.com/iyeaaa/malloc_lab/assets/102817453/3f4e73ee-f368-4025-aedf-3bec23670ee4)
